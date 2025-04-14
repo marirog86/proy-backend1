@@ -19,7 +19,7 @@ class ProductManager {
     }
 
     saveProducts() {
-        fs.writeFileSync(path, JSON.stringify(this.products));
+        fs.writeFileSync(pathProductos, JSON.stringify(this.products, null, 2));
     }
 
     getProducts() {

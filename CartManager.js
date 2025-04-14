@@ -19,7 +19,7 @@ class CartManager {
     }
 
     saveCarts() {
-        fs.writeFileSync(path, JSON.stringify(this.carts));
+        fs.writeFileSync(pathCart, JSON.stringify(this.carts, null, 2));
     }
 
 
