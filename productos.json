@@ -1,32 +1,5 @@
 [
   {
-    "id": 2,
-    "title": "Pantalon Negro",
-    "description": "Pantalon jean negro",
-    "code": "KFNJGJ",
-    "price": 1300,
-    "stock": 5,
-    "category": "Pantalones"
-  },
-  {
-    "id": 3,
-    "title": "Zapatillas",
-    "description": "Zapatillas",
-    "code": "SLPDGN",
-    "price": 1500,
-    "stock": 6,
-    "category": "Zapatillas"
-  },
-  {
-    "id": 2,
-    "title": "Pantalon Negro",
-    "description": "Pantalon jean negro",
-    "code": "KFNJGJ",
-    "price": 1000,
-    "stock": 5,
-    "category": "Pantalones"
-  },
-  {
     "id": 3,
     "title": "Zapatillas",
     "description": "Zapatillas",
@@ -61,5 +34,13 @@
     "price": 1500,
     "stock": 6,
     "category": "Zapatillas"
+  },
+  {
+    "title": "Sombrero",
+    "price": 500
+  },
+  {
+    "title": "Campera",
+    "price": 2000
   }
 ]
