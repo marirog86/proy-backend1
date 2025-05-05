@@ -3,7 +3,7 @@ const { Server } = require('socket.io');
 const path = require('path');
 const handlebars = require('express-handlebars');
 const http = require('http');
-const ProductManager = require('./ProductManager'); // tu clase
+const ProductManager = require('./ProductManager'); 
 
 const app = express();
 const server = http.createServer(app);
@@ -39,7 +39,7 @@ io.on('connection', socket => {
     // Crear producto
     socket.on('addProduct', data => {
         productManager.addProduct(data);
-        io.emit('productList', productManager.getProducts()); // Enviar a todos
+        io.emit('productList', productManager.getProducts()); 
     });
 
     // Eliminar producto
